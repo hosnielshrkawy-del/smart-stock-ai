@@ -1,0 +1,42 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*service-account*.json
+credentials.json
+secrets/
+secrets.*
+
+# Dependencies and build output
+node_modules/
+dist/
+.output/
+.vite/
+.tanstack/
+coverage/
+android/.gradle/
+android/app/build/
+android/build/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Backups and temporary files
+*.bak
+*.bak-*
+*.backup
+*.backup-*
+*.tmp
+.DS_Store
+
+# Local environment and generated files
+.grok/app-env.json
+.vercel/
+attachments/
